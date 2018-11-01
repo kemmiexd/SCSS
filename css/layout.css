@@ -1,0 +1,11 @@
+.container .child a {
+  color: blue;
+  font-size: 20px;
+  font-weight: bold;
+}
+.container p {
+  color: yellow;
+  border-top: 1px solid red;
+}
+
+/*# sourceMappingURL=layout.css.map */

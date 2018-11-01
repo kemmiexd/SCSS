@@ -1,0 +1,14 @@
+.container {
+    .child {
+        a {
+            color: blue;
+            font-size: 20px;
+            font-weight: bold;
+        }
+    }
+
+    p {
+        color: yellow;
+        border-top: 1px solid red;
+    }
+}
