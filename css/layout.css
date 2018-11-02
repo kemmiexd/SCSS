@@ -1,11 +1,34 @@
 .container .child a {
   color: blue;
-  font-size: 20px;
   font-weight: bold;
+  font-size: 50px;
 }
 .container p {
-  color: yellow;
+  color: brown;
   border-top: 1px solid red;
+}
+.container button {
+  background: green;
+  color: white;
+  border: none;
+  font-weight: bold;
+  border-radius: 5px;
+  padding: 20px;
+}
+.container button:hover, .container button:active, .container button:focus {
+  background: red;
+}
+.container .content {
+  background: red;
+  color: white;
+  width: 500px;
+  height: 500px;
+  margin: 50px;
+}
+.container .content-left {
+  background: black;
+  width: 200px;
+  height: 200px;
 }
 
 /*# sourceMappingURL=layout.css.map */

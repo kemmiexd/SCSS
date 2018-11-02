@@ -1,14 +1,45 @@
+$color-red: red;
+
 .container {
     .child {
         a {
             color: blue;
-            font-size: 20px;
-            font-weight: bold;
+            font: {
+                weight: bold;
+                size: 50px;
+            }
         }
     }
 
     p {
-        color: yellow;
-        border-top: 1px solid red;
+        color: brown;
+        border-top: 1px solid $color-red;
+    }
+
+    button {
+        background: green;
+        color:white;
+        border:none;
+        font-weight: bold;
+        border-radius: 5px;
+        padding:20px;
+
+        &:hover, &:active, &:focus {
+            background: $color-red;
+        }
+    }
+
+    .content {
+        background: $color-red;
+        color:white;
+        width:500px;
+        height: 500px;
+        margin:50px;
+
+        &-left {
+            background: black;
+            width:200px;
+            height: 200px;
+        }
     }
 }
